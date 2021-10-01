@@ -76,3 +76,45 @@ main {
     padding: 3px;
     background-color: rgba(0, 0, 0, .6);
 }
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #212225;
+}
+
+footer ul {
+    display: flex;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.footer-icon {
+    margin: 0 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-icon.menu {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon .icon {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.footer-icon .arrow {
+    margin-left: 5px;
+}
+
+.footer-icon.active .icon {
+    color: #4CC800;
+}
+
+footer .button {
+    padding: 0 20px;
+    color: coral;
+}
